@@ -3,7 +3,7 @@ h1{
     font-family:impact;
 }
 header{
-    background-color: cornflowerblue;
+    background-color: cornflowerred;
 }
 h5{
     text-align: center;
@@ -14,13 +14,14 @@ footer{
 }
 p{
     text-align: center;
-    color: white;
+    color: rgb(255, 255, 255);
 }
 a{
     text-decoration: none;
 }
 #pparque{
-    color: black;
+    color: rgb(233, 58, 58);
     
 }
 h2{ text-decoration:underline;}
+
