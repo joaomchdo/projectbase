@@ -93,4 +93,32 @@ daysOFWeek.shift()
 daysOFWeek.sort() 
 daysOFWeek.reverse
 alert ("Atualmente os alunos desta instituicao são : " + daysOFWeek)
-alert(daysOFWeek.indexOf("Arthur"))*/
+alert(daysOFWeek.indexOf("Arthur"))
+ function saudar(){
+    alert ("Desejo uma boa navegação em nosso site!!")
+ }
+ saudar()
+
+function dobrarNumero(numero){
+    return numero * 2
+}
+let resultado = dobrarNumero(888)
+alert("O calculo do dobro do numero"+resultado)
+
+function Cumprimentar(nome){
+    alert("Ola,"+nome+" como esta seu dia?")
+}
+Cumprimentar("Raquel")
+let nomedoaluno = prompt("Digite o seu nome jovem:")
+Cumprimentar(nomedoaluno)
+
+function contagemRegressiva(numero){
+    console.log(numero)
+    if(numero ===0){
+        console.log("chegou");
+        return ;
+    }
+    contagemRegressiva(numero-1)
+}
+contagemRegressiva(10)*/
+
