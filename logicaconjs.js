@@ -1,4 +1,4 @@
-/*let bruna = 6.5;
+let bruna = 6.5;
 let carla = 8;
 let soma = bruna+carla
 console.log(" A soma é: " + soma)
@@ -120,5 +120,5 @@ function contagemRegressiva(numero){
     }
     contagemRegressiva(numero-1)
 }
-contagemRegressiva(10)*/
+contagemRegressiva(10)
 
